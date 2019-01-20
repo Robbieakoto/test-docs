@@ -34,7 +34,7 @@ All you have to do to start using Epay.
 return [
     'baseUrl' => 'https://epaygh.com/',
     'production' => false,
-    'siteName' => 'Epay Docs',
+    'siteName' => 'Epay',
     'siteDescription' => 'Epay documentation',
     'docsearchApiKey' => '',
     'docsearchIndexName' => '',
