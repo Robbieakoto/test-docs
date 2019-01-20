@@ -2,7 +2,7 @@
 
 Epay is a payment service that makes it easier for African businesses to securely accept online payments (both local and International)without coding or having a website and at no cost.
 
-[View our Online docs at.](https://epaydocs.netlify.com/)
+View our Online docs [here](https://epaydocs.netlify.com/)
 
 ## Introduction
 
