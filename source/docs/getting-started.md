@@ -28,22 +28,13 @@ All you have to do to start using Epay.
     *Create a payment page
     *Share page link with customers to get paid
     
-## Setting Up Your Account {#setup}
 
-    *Create an Account by signing up
-    *Verify your email address
-    *Login to your account
-## How to Create a Payment Page
-    A _Payment Page_ can represent anything you want to charge money for, including; a downloadable product, a private course, T-shirt etc.
-    *After you login successfully, head to the navigation and click on _Payment Pages_.
-    *On the top right corner is a button named _Create New Page_; click on it to create your payment page.
-    *Now, copy the link provided you when you create the page and start sharing with whoever needs to pay you.
 ```php
 // config.php
 return [
     'baseUrl' => 'https://epaygh.com/',
     'production' => false,
-    'siteName' => 'My Site',
+    'siteName' => 'Epay Docs',
     'siteDescription' => 'Epay documentation',
     'docsearchApiKey' => '',
     'docsearchIndexName' => '',
@@ -53,6 +44,16 @@ return [
 
 
 ---
+## Setting Up Your Account {#setup}
+    *Create an Account by signing up
+    *Verify your email address
+    *Login to your account
+    
+## How to Create a Payment Page
+    A _Payment Page_ can represent anything you want to charge money for, including; a downloadable product, a private course, T-shirt etc.
+    *After you login successfully, head to the navigation and click on _Payment Pages_.
+    *On the top right corner is a button named _Create New Page_; click on it to create your payment page.
+    *Now, copy the link provided you when you create the page and start sharing with whoever needs to pay you.
 
 ### Adding Content {#getting-started-adding-content}
 
