@@ -112,14 +112,6 @@
         <li>Login to your account</li>
     </ul>
 
-<!--<pre><code class="language-yaml">---
-title: Navigation
-description: Building a navigation menu for your site
-extends: _layouts.documentation
-section: content
----</code></pre>
-
-<p><a href="https://jigsaw.tighten.co/docs/content-blade/">Read more about Jigsaw layouts.</a></p>-->
 
 <!--Create a page-->
 <h4 id="create-payment-page" class="text-blue-darkest">How to Create a Payment Page</h4>
@@ -197,6 +189,6 @@ View documentation here</p>
 </div>
     </div>
     </div>
-   
+    </section>
 
 @endsection
