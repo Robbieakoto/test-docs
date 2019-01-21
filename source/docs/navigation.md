@@ -14,7 +14,7 @@ The navigation menu in the left-hand sidebar is defined using an array in `navig
 // navigation.php
 
 return [
-    'Getting Started' => [
+    'Introduction' => [
         'url' => 'docs/getting-started',
         'children' => [
             'Customizing Your Site' => 'docs/customizing-your-site',
