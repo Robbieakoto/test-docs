@@ -4,11 +4,17 @@ return [
     'Getting Started' => [
         'url' => 'docs/getting-started',
         'children' => [
-            'Setup Your Account' => 'docs/getting-started/setup',
-            'Navigation' => 'docs/navigation',
-            'Algolia DocSearch' => 'docs/algolia-docsearch',
-            'Custom 404 Page' => 'docs/custom-404-page',
+            'Setup Account' => 'docs/getting-started/setup',
+            'Create a Payment Page' =>'docs/getting-started/create',
+            'How to make Payment'=>'docs/getting-started/make-payment',
+            'Transfer Money from Your wallet'=>'docs/getting-started/transfer',
         ],
     ],
-    'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
+    'Developers'=>'docs/getting-started/developers',
+    'Epay Dashboard'=>'docs/getting-started/dashboard',
+    'Payment Channels'=>'docs/getting-started/channels',
+    'International Transfers'=>'docs/getting-started/international',
+    'Account Management'=>'docs/getting-started/account',
+    'Instant Notiifications' =>'docs/getting-started/notifications',
+    'Offline Capabilities'=>'docs/getting-started/offline'
 ];
