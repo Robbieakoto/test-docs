@@ -10,7 +10,7 @@
                 <br class="hidden sm:block"> without coding. This contains every information oh how to use Epay easily.</p>
 
             <div class="flex my-10">
-                <a href="/docs/getting-started" title="Gettting started with Epay" class="bg-blue hover:bg-blue-dark font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started</a>
+                <a href="docs/getting-started" title="Gettting started with Epay" class="bg-blue hover:bg-blue-dark font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Get Started</a>
 
                 <a href="https://epaygh.com/login" title="Read about Epay" class="bg-grey-light hover:bg-grey-dark text-blue-darkest font-normal hover:text-white rounded py-2 px-6">Login to your Account</a>
             </div>
