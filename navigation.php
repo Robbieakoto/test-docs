@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'Introduction' =>[
+        'url' => 'docs/getting-started',
+        'children' => [
+            'What is Epay?' => 'docs/getting-started/'
+        ]
+        ],
     'Getting Started' => [
         'url' => 'docs/getting-started',
         'children' => [

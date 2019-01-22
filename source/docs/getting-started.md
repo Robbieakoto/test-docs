@@ -15,7 +15,7 @@ section: content
     * You don't need a website or to write code to be able to accept payments for your business.
     * Developer friendly with webhook and API driven platform
     * Easy to setup and start accepting payments in minutes
-    * Your customers need no mobile app installed and don't need to signup on epay to pay you.
+    * Your customers need no mobile app installed and don't need to signup on epay to pay you
 
 ##### Getting Started {#getting-started}
 All you have to do to start using Epay.

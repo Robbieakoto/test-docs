@@ -1,13 +1,15 @@
 @extends('_layouts.master')
 
 @section('body')
+
 <div class="w-full lg:w-6/6 break-words lg:p-7 sm:p-2" v-pre>
     <div class="max-w-xl rounded overflow-hidden shadow-lg w-full break-words p-6 text-grey-darker">
 
         <h2 id="getting-started " class="text-grey-darker" >What is Epay?</h2>                       
             <p>Epay is a payment service that makes it easier for African businesses to securely accept online payments (both local and International) without coding or having a website and at no cost.</p>
             <p><b>Focus on building a global business and not on payments infrastructure. Get Paid around the World, Grow your Business, Go Global!</b></p>
-    </div> 
+    </div>
+
     <br><br>
     
        <div class="bg-grey-lighter border-l-4 border-blue text-black p-4 shadow-sm"" role="alert">
@@ -20,7 +22,6 @@
                     <li>Your customers need no mobile app installed and don't need to signup on epay to pay you.</li>
                 </ul>
             </p>
-
         </div>
 
 <h4 id="getting-started" class="text-blue-darkest">Getting Started</h4>
