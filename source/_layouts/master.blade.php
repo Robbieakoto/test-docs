@@ -61,7 +61,7 @@
                                     Home
                                 </a>
         
-                                <a title="For Developers" href="docs/developers"
+                                <a title="For Developers" href="/developers"
                                     class="ml-6 text-grey-darker hover:text-blue-dark ">
                                     Developers
                                 </a>

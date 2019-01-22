@@ -16,7 +16,7 @@ return [
             'Transfer Money from Your wallet'=>'docs/getting-started/transfer',
         ],
     ],
-    'Developers'=>'docs/getting-started/developers',
+    'Developers'=>'docs/developers',
     'Epay Dashboard'=>'docs/getting-started/dashboard',
     'Payment Channels'=>'docs/getting-started/channels',
     'International Transfers'=>'docs/getting-started/international',
