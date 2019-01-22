@@ -30,9 +30,9 @@ All you have to do to start using Epay.
 * Login to your account
     
 ##### Create a Payment Page
-A _Payment Page_ can represent anything you want to charge money for, including; a downloadable product, a private course, T-shirt etc.
-* After you login successfully, head to the navigation and click on _Payment Pages_.
-* On the top right corner is a button named _Create New Page_; click on it to create your payment page.
+A Payment Page can represent anything you want to charge money for, including; a downloadable product, a private course, T-shirt etc.
+* After you login successfully, head to the navigation and click on **Payment Pages**.
+* On the top right corner is a button named **Create New Page**; click on it to create your payment page.
 * Now, copy the link provided you when you create the page and start sharing with whoever needs to pay you.
 
 ##### Developer Integration
@@ -44,11 +44,11 @@ Our well designed and beautiful checkout pages allows you to accept payments for
 * Request a payment link
 * Fill out the required details
 * Chose your preferred payment method
-* Fill out the paymment details and click _Proceed to payment_
+* Fill out the paymment details and click **Proceed to payment**
 
 ##### Transfer Money
 * Head to the tranfers tab on your Dashboard Navigation
-* Click on the _New Transfer_ button located at the top right corner of your page .
+* Click on the **New Transfer** button located at the top right corner of your page .
 * Choose your withdrawal method and get your money
 
 ##### Epay Dashboard
