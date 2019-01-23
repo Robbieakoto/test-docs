@@ -14,7 +14,7 @@
             <div class="flex my-10">
                 <a href="docs/getting-started" title="Gettting started with Epay" class="bg-blue hover:bg-blue-dark font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Read Docs</a>
 
-                <a href="docs/try-now" title="Read about Epay" class="bg-grey-light hover:bg-grey-dark text-blue-darkest font-normal hover:text-white rounded py-2 px-6">Try Now</a>
+                <a href="docs/trynow" title="Read about Epay" class="bg-grey-light hover:bg-grey-dark text-blue-darkest font-normal hover:text-white rounded py-2 px-6">Try Now</a>
             </div>
         </div>
 
@@ -32,15 +32,15 @@
                 <div class="md:flex -mx-2 -mx-4">
                         <div class="lg:w-1/3 sm:w-3/3 h-full p-4">
                         <div class="max-w-sm rounded overflow-hidden p-6">
-                        <i class="fas fa-credit-card text-4xl text-blue-darkest mt-4"></i>
-                            <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">Accept Payment</h3>
+                                <img src="/assets/img/mobile.svg" accept" class="h-8 md:h-10 mr-3 ">      
+                                 <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">Accept Payment</h3>
                             <p>Epay allows you to accept payments in minutes. Collect payments easily and securely on mobile, web and even without a website.</p>
                             <a href="https://epaygh.com" title="Gettting started with Epay" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded mr-4 py-2 px-6">See more</a>
                         </div>
                     </div>
                         <div class="lg:w-1/3 sm:w-3/3 h-full p-4">
                         <div class="max-w-sm rounded overflow-hidden  p-6">
-                        <i class="fas fa-times text-4xl text-blue-darkest mt-4"></i>
+                                <img src="/assets/img/administrator.svg" accept" class="h-8 md:h-10 mr-3 ">      
                             <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">Not a Developer?</h3>
                             <p>Although an Epay integration requires a developer. Payment pages, allows you to securely and
                             easily accept payments without code or a website.</p>
@@ -48,14 +48,13 @@
                 
                         </div>
                     </div>
-                        <div class="lg:w-1/3 sm:w-3/3 h-full p-4">
-                            <div class="max-w-sm rounded overflow-hidden p-6">
-                            <i class="fas fa-cogs text-4xl text-blue-darkest mt-4"></i>
-                            <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">API Reference</h3>
-                            <p>Get familiar with our APIs. We've tried it as easy as possible to get up and running Epay.</p>
-                             <a href="/docs/getting-started" title="Gettting started with Epay" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded mr-4 py-2 px-6">See more</a>
-                
-                        </div>
+                    <div class="lg:w-1/3 sm:w-3/3 h-full p-4">
+                        <div class="max-w-sm rounded overflow-hidden p-6">
+                                <img src="/assets/img/api.svg" accept" class="h-8 md:h-10 mr-3 ">      
+                        <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">API Reference</h3>
+                        <p>Get familiar with our APIs. We've tried to make it as easy as possible to get up and running with Epay integration.</p>
+                         <a href="/docs/getting-started" title="Gettting started with Epay" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded mr-4 py-2 px-6">See more</a>
+                    </div>
                     </div>
 </div>
 </section>

@@ -45,7 +45,7 @@
                     <div class="container flex items-center max-w-4xl mx-auto px-4 lg:px-8">
                         <div class="flex items-center">
                             <a href="/" title="Epay home" class="inline-flex items-center">
-                                <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="Epay logo" />
+                                <img class="h-8 md:h-10 mr-3" src="/assets/img/logo2.png" alt="Epay logo" />
         
                                 <h1 class="text-lg md:text-2xl text-blue-darkest font-semibold hover:text-blue-dark my-0 pr-4">Epay guide</h1>
                             </a>
@@ -98,10 +98,6 @@
                     &copy; <a href="https://epaygh.com" title="Tighten website">Epay</a> {{ date('Y') }}.
                 </li>
 
-                <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
-                </li>
             </ul>
         </footer>
     </body>
