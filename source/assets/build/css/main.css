@@ -9,6 +9,10 @@
 
 /* Comment */
 
+* {
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
 .hljs-comment,
 .hljs-quote {
     color: #696969;
