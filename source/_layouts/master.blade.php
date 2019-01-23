@@ -52,32 +52,7 @@
                         </div>
         
                          <div class="flex flex-1 justify-end items-center text-right md:pl-10">
-                         <div id="vue-search" class="flex flex-1 justify-end items-center">
-                            <search></search>
-        
-                            <nav class="hidden lg:flex items-center justify-end text-lg">
-                                <a title="Epay home" href="/index"
-                                    class="ml-6 text-grey-darker hover:text-blue-dark active text-blue-dark">
-                                    Home
-                                </a>
-        
-                                <a title="For Developers" href="/developers"
-                                    class="ml-6 text-grey-darker hover:text-blue-dark ">
-                                    Developers
-                                </a>
-        
-                                <a title="Epay Website" href="https://epaygh.com/"
-                                    class="ml-6 text-grey-darker hover:text-blue-dark ">
-                                    Visit Epay
-                                </a>
-        
-                                <a title="Contribute on GitHub" href="https://github.com/AppGharage/Epay-support"
-                                    class="ml-6 text-grey-darker hover:text-blue-dark ">
-                                    Contribute
-                                </a>
-                            </nav>
-                                            
-                        </div>
+                         
                     </div>
                     </div>
 
