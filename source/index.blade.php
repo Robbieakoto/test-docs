@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<section class="container max-w-2xl mx-auto px-6 py-10 md:py-12">
+<section class="container max-w-2xl mx-auto px-6 py-10 md:py-12 ">
     <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
         <div class="mt-8">
             <h1 id="Epay Docs">Epay Docs</h1>
@@ -32,7 +32,7 @@
                 <div class="md:flex -mx-2 -mx-4">
                         <div class="lg:w-1/3 sm:w-3/3 h-full p-4">
                         <div class="max-w-sm rounded overflow-hidden p-6">
-                                <img src="/assets/img/mobile.svg" accept" class="h-8 md:h-10 mr-3 ">      
+                                <img src="/assets/img/mobile.svg" accept" class="h-12 md:h-12 mr-3 ">      
                                  <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">Accept Payment</h3>
                             <p>Epay allows you to accept payments in minutes. Collect payments easily and securely on mobile, web and even without a website.</p>
                             <a href="https://epaygh.com" title="Gettting started with Epay" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded mr-4 py-2 px-6">See more</a>
@@ -40,7 +40,7 @@
                     </div>
                         <div class="lg:w-1/3 sm:w-3/3 h-full p-4">
                         <div class="max-w-sm rounded overflow-hidden  p-6">
-                                <img src="/assets/img/administrator.svg" accept" class="h-8 md:h-10 mr-3 ">      
+                                <img src="/assets/img/administrator.svg" accept" class="h-12 md:h-12 mr-3 ">      
                             <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">Not a Developer?</h3>
                             <p>Although an Epay integration requires a developer. Payment pages, allows you to securely and
                             easily accept payments without code or a website.</p>
@@ -50,9 +50,9 @@
                     </div>
                     <div class="lg:w-1/3 sm:w-3/3 h-full p-4">
                         <div class="max-w-sm rounded overflow-hidden p-6">
-                                <img src="/assets/img/api.svg" accept" class="h-8 md:h-10 mr-3 ">      
+                                <img src="/assets/img/api.svg" accept" class="h-12 md:h-12 mr-3 ">      
                         <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">API Reference</h3>
-                        <p>Get familiar with our APIs. We've tried to make it as easy as possible to get up and running with Epay integration.</p>
+                        <p>Get familiar with our APIs. We've tried to make it as easy as possible to get up and running with an Epay integration.</p>
                          <a href="/docs/getting-started" title="Gettting started with Epay" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded mr-4 py-2 px-6">See more</a>
                     </div>
                     </div>

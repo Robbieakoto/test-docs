@@ -3,7 +3,7 @@
 @section('body')
 
 <div class="w-full lg:w-6/6 break-words lg:p-7 sm:p-2" v-pre>
-    <div class="max-w-xl rounded overflow-hidden shadow-lg w-full break-words p-6 text-grey-darker">
+    <div class="markdown p-12 pb-16 w-full lg:max-w-md xl:max-w-lg rounded overflow-hidden shadow-lg px-6 xl:px-10 pt-4 pb-8" v-pre>
 
         <h2 id="getting-started " class="text-grey-darker" >What is Epay?</h2>                       
             <p>Epay is a payment service that makes it easier for African businesses to securely accept online payments (both local and International) without coding or having a website and at no cost.</p>

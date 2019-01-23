@@ -1,26 +1,27 @@
 <?php
 
 return [
-    'Introduction' =>[
-        'url' => 'docs/getting-started',
-        'children' => [
-            'What is Epay?' => 'docs/getting-started/'
-        ]
+    'Quick Start' =>[
+        'url' => 'docs/getting-started'
         ],
     'Getting Started' => [
         'url' => 'docs/getting-started',
         'children' => [
-            'Setup Account' => 'docs/getting-started/setup',
-            'Create a Payment Page' =>'docs/getting-started/create',
-            'How to make Payment'=>'docs/getting-started/make-payment',
-            'Transfer Money from Your wallet'=>'docs/getting-started/transfer',
+            'Overview' => 'docs/getting-started/setup',
+            'Payment Methods' =>'docs/getting-started/create',
+            'Features'=>'docs/getting-started/make-payment',
         ],
     ],
-    'Developers'=>'docs/developers',
-    'Epay Dashboard'=>'docs/getting-started/dashboard',
-    'Payment Channels'=>'docs/getting-started/channels',
-    'International Transfers'=>'docs/getting-started/international',
+    'Accept Payments' => [
+        'url' => 'docs/getting-started',
+        'children' =>[
+            'Payment pages' =>'docs/getting-started/payment-page',
+            'Integrations' =>'docs/getting-started/integrations'
+        ]
+    ],
+    'Transfer / Disburse Payments'=>'docs/developers',
+    'Webhooks'=>'docs/developers',
+    'API reference'=>'docs/getting-started/dashboard',
     'Account Management'=>'docs/getting-started/account',
-    'Instant Notiifications' =>'docs/getting-started/notifications',
-    'Offline Capabilities'=>'docs/getting-started/offline'
+    
 ];

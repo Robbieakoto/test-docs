@@ -45,9 +45,9 @@
                     <div class="container flex items-center max-w-4xl mx-auto px-4 lg:px-8">
                         <div class="flex items-center">
                             <a href="/" title="Epay home" class="inline-flex items-center">
-                                <img class="h-8 md:h-10 mr-3" src="/assets/img/logo2.png" alt="Epay logo" />
+                                <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="Epay logo" />
         
-                                <h1 class="text-lg md:text-2xl text-blue-darkest font-semibold hover:text-blue-dark my-0 pr-4">Epay guide</h1>
+                                <h1 class="text-lg md:text-2xl text-blue-darkest font-bold hover:text-blue-dark my-0 pr-4">Epay Docs</h1>
                             </a>
                         </div>
         
