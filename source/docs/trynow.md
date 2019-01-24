@@ -14,7 +14,7 @@ Get up and running with our webhook driven service and start your integration. I
 2. **Connect your payment page** so you can take payments from your customers directly into your Epay wallet.
 ```
 <code class="language-html"> <strong>HTML</strong>
-    &lt;a href="https://epaygh.com/pay/st-event-demo-app" class="btn btn-primary"&gt;pay&lt;/a&gt;
+    <a href="https://epaygh.com/pay/st-event-demo-app" class="btn btn-primary">pay</a>;
 </code>
 ````
 3. **Receive and Handle Webhook Notifications** to confirm payment transactions and fulfill purchases
