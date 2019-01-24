@@ -15,7 +15,7 @@
     &lt;a href="https://epaygh.com/pay/st-event-demo-app" class="btn btn-primary"&gt;pay&lt;/a&gt;
 </code>
 </pre>
-        <li>Receive and Handle Webhook Notifications to confirm payment transactions and fulfill purchases</li><p>
+        <li><strong>Receive and Handle Webhook Notifications</strong> to confirm payment transactions and fulfill purchases</li><p>
 <pre>
 <code class="language-json">
 <strong>JSON</strong>

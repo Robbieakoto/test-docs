@@ -9,7 +9,7 @@
             <h4 class="font-light mt-4">Accept and disburse Bank, Card and Mobile Money payments</h4>
             <p class="text-md">Welcome to Epay! Accept payments Securely, Globally and Instantly. <br class="hidden sm:block"> Get familiar with Epay and explore our features.
                 <br class="hidden sm:block">If you have any questions or comments, feel free to get to us by mail <br class="hidden sm:block">
-                at <span class="text-blue-dark">info@epaygh.com</span> or <span class="text-blue-dark">WhatsApp / Call  us on 0508220167.<span></p>
+                at <span class="text-blue-dark">info@epaygh.com</span> or WhatsApp / Call  us on <span class="text-blue-dark"> 0508220167.<span></p>
 
             <div class="flex my-10">
                 <a href="docs/getting-started" title="Gettting started with Epay" class="bg-blue hover:bg-blue-dark font-normal text-white hover:text-white rounded mr-4 py-2 px-6">Read Docs</a>
@@ -23,8 +23,7 @@
 
     <hr class="block my-8 border lg:hidden">
 
-
-                                
+        
                             </ol>
                     </div>
                 </div>

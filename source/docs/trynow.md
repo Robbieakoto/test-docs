@@ -1,6 +1,7 @@
 ---
 title: Epay
 description: Epay's documentation
+extends: _layouts.documentation
 section: content
 ---
 
