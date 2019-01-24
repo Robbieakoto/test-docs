@@ -1,12 +1,14 @@
 ---
 title: Epay
 description: Epay's documentation
+extends: _layouts.documentation
 section: content
 ---
 
 # Try Now 
 
-Try our APIs and Webhooks now.
+Get up and running with our webhook driven service and start your integration. Integrating Epay into your app or website can begin as soon as you [Create an account](https://epaygh.com/register), which requires only 3 steps;
+
 
 1. **Configure your Webhooks** to receive webhook notifications through the specified endpoint. Example: **https://graph.epaygh.com**
 2. **Connect your payment page** so you can take payments from your customers directly into your Epay wallet.
