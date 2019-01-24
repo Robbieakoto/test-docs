@@ -11,7 +11,6 @@ return [
     'docsearchIndexName' => '',
 
     // navigation menu
-    'navigation' => require_once('navigation.php'),
 
     // helpers
     'isActive' => function ($page, $path) {
