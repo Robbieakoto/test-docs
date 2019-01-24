@@ -2,26 +2,26 @@
 
 return [
     'Quick Start' =>[
-        'url' => 'docs/getting-started'
+        'url' => '#quick-start'
         ],
     'Getting Started' => [
-        'url' => 'docs/getting-started',
+        'url' => '#overview',
         'children' => [
-            'Overview' => 'docs/getting-started/setup',
-            'Payment Methods' =>'docs/getting-started/create',
-            'Features'=>'docs/getting-started/make-payment',
+            'Overview' => '#overview',
+            'Payment Methods' =>'#payment-method',
+            'Features'=>'#features',
         ],
     ],
     'Accept Payments' => [
-        'url' => 'docs/getting-started',
+        'url' => '#accept',
         'children' =>[
-            'Payment pages' =>'docs/getting-started/payment-page',
-            'Integrations' =>'docs/getting-started/integrations'
+            'Payment pages' =>'#payment-page',
+            'Integrations' =>'#integrations'
         ]
     ],
-    'Transfer / Disburse Payments'=>'docs/developers',
-    'Webhooks'=>'docs/developers',
-    'API reference'=>'docs/getting-started/dashboard',
-    'Account Management'=>'docs/getting-started/account',
+    'Transfer / Disburse Payments'=>'#payments',
+    'Webhooks'=>'#webhooks',
+    'API reference'=>'#api',
+    'Account Management'=>'account',
     
 ];
