@@ -21,7 +21,7 @@ return [
     ],
     'Transfer / Disburse Payments'=>'/docs/getting-started#payments',
     'Webhooks'=>'/docs/getting-started#webhooks',
-    'API reference'=>'/docs/getting-started#api',
-    'Account Management'=>'/docs/getting-started#account',
+    'API reference'=>'/docs/api-reference',
+    'Account Management'=>'/docs/accounts',
     
 ];
