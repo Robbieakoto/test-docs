@@ -64,14 +64,14 @@ Our well designed and beautiful checkout pages allows you to accept payments for
 #### Webhooks {#webhooks}
 
 
-### API Reference {/api-reference}
+### API Reference 
 * Create an Account by signing up
 * Verify your email address
 * Login to your account
     
 
 
-#### Account Management {/accounts}
+#### Account Management 
 * Request a payment link
 * Fill out the required details
 * Chose your preferred payment method

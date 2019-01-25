@@ -21,24 +21,24 @@
 <li>All <strong>API endpoints are versioned</strong> to apps from breaking when we realize breaking changes</li>
 
 
-    <table class="table-auto">
-        <thead>
-            <tr>
-                <th>EndpointName</th>
-                <th>EndpointUrl</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>EndpointName</td>
-                <td>EndpointUrl</td>
-            </tr>
-            <tr>
-                <td>EndpointName</td>
-                <td>EndpointUrl</td>    
-            </tr>
-        </tbody>
-    </table>
+<table style="width:100%" class="border-black">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th> 
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td> 
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td> 
+          <td>94</td>
+        </tr>
+      </table>
+
       </div>
     </div>
 </section>

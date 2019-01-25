@@ -27,8 +27,10 @@ To help you get oriented with Epay’s API and what it can help you do, let’s 
 * All **API endpoints are versioned** to apps from breaking when we realize breaking changes
 
 ### Table
-| EndpointName | EndpointUrl | 
-| ------------ | ----------- | 
+| EndpointName  | EndpointUrl   | EndpointName   | EndpointUrl  | 
+| :------------ | :-----------: | :------------: | -----------: | 
+| EndpointName  | EndpointUrl   | EndpointName   | EndpointUrl  |
+| EndpointName  | EndpointUrl   | EndpointName   | EndpointUrl  |
 
 
 >Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth

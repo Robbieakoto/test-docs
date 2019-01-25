@@ -38,6 +38,20 @@
         @if ($page->docsearchApiKey && $page->docsearchIndexName)
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
         @endif
+
+        <style>
+            table{
+                border: #000;
+                width: 100%;
+            }
+            h1,h2,h3,h4,h5,h6{
+                color:#2779BD;
+            }
+            pre{
+                background-color: #000;
+                color: #fff;
+            }
+        </style>
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-grey-lightest text-grey-darkest leading-normal font-sans">
