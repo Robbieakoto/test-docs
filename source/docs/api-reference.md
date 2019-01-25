@@ -35,9 +35,9 @@ To help you get oriented with Epay’s API and what it can help you do, let’s 
 >Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth
 
 #### Authentication
-Once you have an account, you need to call **/v1/token** to obtain an access token. This access token grants you access to all protected resources. To get your access token you will need a **merchant_key, app_id** and **app_secret**. You will need to first create an Integration on your dashboard to get your **app_id** and **app_secret**. Your **merchant_key** can be located on your **dashboard under Settings**.
+Once you have an account, you need to call **/v1/token** to obtain an access token. This access token grants you access to all protected resources. To get your access token, you will need a **merchant_key, app_id** and **app_secret**. You will need to first create an Integration on your dashboard to get your **app_id** and **app_secret**. Your **merchant_key** can be located on your **dashboard under Settings**.
 
->The **access_token** would grant access to the protected resources, each generated access_token **expires in 3600 seconds (1hr)**.
+>The **access_token** would grant you access to the protected resources, each generated access_token **expires in 3600 seconds (1hr)**.
 
 ### Table
 
