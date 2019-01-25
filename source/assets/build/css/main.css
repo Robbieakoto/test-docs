@@ -9,10 +9,6 @@
 
 /* Comment */
 
-* {
-    font-family: 'Roboto Slab', serif;
-}
-
 .hljs-comment,
 .hljs-quote {
     color: #696969;
