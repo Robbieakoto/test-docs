@@ -6,7 +6,8 @@ section: content
 ---
 
 ### API Reference
-Here you’ll find detailed information about our APIs – what they’re for, how to use them and when to use them.
+Here you’ll find detailed information about our APIs – what they’re for, how to use them and when to use them. If you have any issues, questions or comments, feel free to get to us by mail at info@epaygh.com or WhatsApp / Call us on 0508220167.  
+
 
 
 ## Introduction
@@ -14,7 +15,9 @@ In order to start using Epay to receive and/or disburse payments, you would need
 
 Once registered, log into your account and head over to your settings page on the dashboard to generate your *Merchant Key*. This API Key should be kept confidential, as it would help you to authorise all API calls related to your account, as well as direct incoming funds to your Epay Wallet.
 
-The Epay API is organized around **REST**. Our API has predictable resource-oriented URLs, accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication and verbs.
+The Epay API is organized around **REST**. Our API has predictable resource-oriented URLs, accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication and verbs.     
+
+
 
 ## API Basics
 To help you get oriented with Epay’s API and what it can help you do, let’s start by defining some basics:
@@ -26,21 +29,45 @@ To help you get oriented with Epay’s API and what it can help you do, let’s 
 * All **Bulk fetches via a “list” endpoint** are **Paginated**
 * All **API endpoints are versioned** to apps from breaking when we realize breaking changes
 
-### Table
-| EndpointName  | EndpointUrl   | EndpointName   | EndpointUrl  | 
-| :------------ | :-----------: | :------------: | -----------: | 
-| EndpointName  | EndpointUrl   | EndpointName   | EndpointUrl  |
-| EndpointName  | EndpointUrl   | EndpointName   | EndpointUrl  |
+| Endpoint Name     | Endpoint Url     | Description                          | Last Updated | 
+| :------------     | :-----------:    | :------------:                       | -----------: | 
+| Authentication    | /v1/token        | This endpoint allows to retrieve a token which will be used to authenticate all requests to our endpoints.    All tokens expire after 1 hour           | 25 Jan 2019 |
+| Charges           | /v1/charge       | This single endpoint allows you to charge both mobile money accounts and Credit Cards into your Epay wallet. This endpoint requires Authentication                       | 25 Jan 2019  |
+| Customers         | /v1/customers    | TThis endpoint allows you to create a customer, retrieve, details and all transactions from a specific customer as well as list out all your customers.    This endpoint requires Authentication                      | 25 Jan 2019 |
+| Transactions      | /v1/transactions | This endpoint allows you to list all transactions under your account and also retrieve information around a specific transaction.   This endpoint requires Authentication                      | 25 Jan 2019 |
 
 
->Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth
+>Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth        
+
 
 ## Authentication
 Once you have an account, you need to call **/v1/token** to obtain an access token. This access token grants you access to all protected resources. To get your access token, you will need a **merchant_key, app_id** and **app_secret**. You will need to first create an Integration on your dashboard to get your **app_id** and **app_secret**. Your **merchant_key** can be located on your **dashboard under Settings**.
 
 >The **access_token** would grant you access to the protected resources, each generated access_token **expires in 3600 seconds (1hr)**.
 
-### Table
+##### Endpoint Details
+
+| Endpoint Url  | https://epaygh.com/api/v1/token |
+| :------------ | -------------------------------:|
+| Method        | Post                            |
+
+
+##### Headers
+
+| Content-Type  | application/json |
+| :------------ | ----------------:|
+| Accept        | application/json |
+
+
+##### Request Body
+
+| Parameter             | Field type                | Required | Description
+| :----------           | :--------------:          | :-------:| -----------:
+| merchant_key          | String                    |Yes       | This is a unique key related to your epay account and can be found on your dashboard under settings section.              **This key carries many privileges, so be sure to keep them secure**|
+| app_id                | String                    |Yes       | This is a unique ID related to your integration and can also be found on your dashboard under integration section.              **This key carries many privileges, so be sure to keep them secure**|
+| app_secret            | String                    |Yes       | This is a unique key related to your integration and can also be found on your dashboard under settings section.              **This key carries many privileges, so be sure to keep them secure**|
+
+
 
 ##### Example Request Body
 ```
@@ -81,6 +108,7 @@ Once you have an account, you need to call **/v1/token** to obtain an access tok
 }
 ```
 
+
 ## Charge
 The chief premise of this endpoint is to provide a single endpoint that allows you to charge your customers mobile money wallet or credit card. Charges are identified by a unique, random ID. called **reference** Payments are instantly deposit into your Epay wallet. The amount taken from your customer is deposited in Epay wallet with **zero percent (0%) charge**.
 
@@ -88,6 +116,12 @@ The chief premise of this endpoint is to provide a single endpoint that allows y
 This is a protected route hence you need to pass your access token through the Authorization header, that is, **Authorization : Bearer access_token**
 
 >We process all transactions **asynchronously**. Hence you would have to set your **callback/webhook** url on your dashboard under the settings section to receive the status of every posted transaction or **call out transaction status check endpoint** to verify status of the transactions.
+
+
+##### Endpoint Details
+| Enpoint Url   | https://epaygh.com/api/v1/charge |
+| :------------ | ----------------:|
+| Method        | Post |
 
 
 

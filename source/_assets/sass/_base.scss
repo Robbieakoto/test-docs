@@ -6,7 +6,6 @@ a {
     @apply .font-semibold;
     @apply .no-underline;
     @apply .text-blue-dark;
-
     &:hover {
         @apply .text-blue-darker;
     }
@@ -34,7 +33,6 @@ code {
 code.hljs {
     @apply .bg-transparent;
     @apply .p-0;
-
     .hljs-comment,
     .hljs-keyword,
     .hljs-meta {
@@ -53,7 +51,6 @@ h6 {
     @apply .mb-4;
     @apply .mt-8;
     @apply .text-black;
-
     &:first-child {
         @apply .mt-0;
     }
@@ -121,7 +118,6 @@ pre {
     @apply .rounded;
     @apply .shadow;
     @apply .text-base;
-
     code {
         @apply .bg-transparent;
         @apply .block;

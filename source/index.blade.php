@@ -32,7 +32,7 @@
                         <div class="lg:w-1/3 sm:w-3/3 h-full p-4">
                         <div class="max-w-sm rounded overflow-hidden p-6">
                                 <img src="/assets/img/mobile.svg" accept" class="h-12 md:h-12 mr-3 ">      
-                                 <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">Accept Payment</h3>
+                                 <h3 id="intro-mix" class="text-2xl text-blue-darkest mb-0">Accept or Disburse Payment</h3>
                             <p>Epay allows you to accept payments in minutes. Collect payments easily and securely on mobile, web and even without a website.</p>
                             <a href="https://epaygh.com" title="Gettting started with Epay" class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded mr-4 py-2 px-6">See more</a>
                         </div>

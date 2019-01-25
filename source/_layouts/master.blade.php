@@ -41,14 +41,14 @@
 
         <style>
             table{
-                border: #000;
+                table-layout: auto;
                 width: 100%;
             }
             h1,h2,h3,h4,h5,h6{
                 color:#2779BD;
             }
             pre{
-                background-color: #000;
+                background-color:#dae1e7;
                 color: #fff;
             }
         </style>
@@ -73,7 +73,7 @@
             @yield('nav-toggle')
         </header>
 
-        <main role="main" class="w-full flex-auto">
+        <main role="main" class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
             @yield('body')
         </main>
 
