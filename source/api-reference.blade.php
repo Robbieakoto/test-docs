@@ -20,8 +20,8 @@
 <li>All <strong>Bulk fetches via a “list” endpoint</strong> are <strong>Paginated</strong></li>
 <li>All <strong>API endpoints are versioned</strong> to apps from breaking when we realize breaking changes</li>
 
-<li>
-    <table>
+
+    <table class="table-auto">
         <thead>
             <tr>
                 <th>EndpointName</th>
@@ -39,8 +39,7 @@
             </tr>
         </tbody>
     </table>
-</li>
-</ul>        </div>
+      </div>
     </div>
 </section>
 @endsection
